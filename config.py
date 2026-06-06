@@ -1,6 +1,6 @@
 import logging
 from logging.handlers import RotatingFileHandler
-
+import os
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
