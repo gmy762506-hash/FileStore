@@ -19,7 +19,7 @@ API_ID = ""
 API_HASH = ""
 WORKERS = 5
 
-DB_URI = "mongodb"
+DB_URI = os.environ.get("DB_URI", "")
 DB_NAME = "yato"
 
 FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
